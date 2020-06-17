@@ -13,6 +13,36 @@
 		DFD9F51D249A5B4E009B2947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD9F51C249A5B4E009B2947 /* Assets.xcassets */; };
 		DFD9F520249A5B4E009B2947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD9F51E249A5B4E009B2947 /* LaunchScreen.storyboard */; };
 		DFD9F523249A5B4E009B2947 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F522249A5B4E009B2947 /* main.m */; };
+		DFD9F565249A5B7E009B2947 /* MSCrashCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F52A249A5B7E009B2947 /* MSCrashCustomView.m */; };
+		DFD9F566249A5B7E009B2947 /* MSCrashUndefInst.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F52B249A5B7E009B2947 /* MSCrashUndefInst.m */; };
+		DFD9F567249A5B7E009B2947 /* MSCrashCorruptMalloc.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F530249A5B7E009B2947 /* MSCrashCorruptMalloc.m */; };
+		DFD9F568249A5B7E009B2947 /* MSCrashNXPage.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F534249A5B7E009B2947 /* MSCrashNXPage.m */; };
+		DFD9F569249A5B7E009B2947 /* MSCrashAbort.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F535249A5B7E009B2947 /* MSCrashAbort.m */; };
+		DFD9F56A249A5B7E009B2947 /* MSCrashAsyncSafeThread.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F537249A5B7E009B2947 /* MSCrashAsyncSafeThread.m */; };
+		DFD9F56B249A5B7E009B2947 /* MSCrashDelayedObjCException.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F53A249A5B7E009B2947 /* MSCrashDelayedObjCException.m */; };
+		DFD9F56C249A5B7E009B2947 /* MSCrashSmashStackBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F53F249A5B7E009B2947 /* MSCrashSmashStackBottom.m */; };
+		DFD9F56D249A5B7E009B2947 /* MSCrashOverwriteLinkRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F542249A5B7E009B2947 /* MSCrashOverwriteLinkRegister.m */; };
+		DFD9F56F249A5B7E009B2947 /* MSCrashObjCMsgSend.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F544249A5B7E009B2947 /* MSCrashObjCMsgSend.m */; };
+		DFD9F570249A5B7E009B2947 /* MSFramelessDWARF_arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F545249A5B7E009B2947 /* MSFramelessDWARF_arm64.s */; };
+		DFD9F571249A5B7E009B2947 /* MSCrashNULL.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F547249A5B7E009B2947 /* MSCrashNULL.m */; };
+		DFD9F572249A5B7E009B2947 /* MSCrashStackGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F549249A5B7E009B2947 /* MSCrashStackGuard.m */; };
+		DFD9F573249A5B7E009B2947 /* MSCrashPrivInst.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F54A249A5B7E009B2947 /* MSCrashPrivInst.m */; };
+		DFD9F574249A5B7E009B2947 /* MSCrashCXXException.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F54D249A5B7E009B2947 /* MSCrashCXXException.mm */; };
+		DFD9F575249A5B7E009B2947 /* MSCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F54E249A5B7E009B2947 /* MSCrash.m */; };
+		DFD9F576249A5B7E009B2947 /* MSCrashROPage.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F550249A5B7E009B2947 /* MSCrashROPage.m */; };
+		DFD9F577249A5B7E009B2947 /* MSCrashSmashStackTop.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F553249A5B7E009B2947 /* MSCrashSmashStackTop.m */; };
+		DFD9F578249A5B7E009B2947 /* MSCrashObjCException.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F554249A5B7E009B2947 /* MSCrashObjCException.m */; };
+		DFD9F579249A5B7E009B2947 /* MSCrashTrap.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F555249A5B7E009B2947 /* MSCrashTrap.m */; };
+		DFD9F57A249A5B7E009B2947 /* MSFramelessDWARF_arm32.S in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F557249A5B7E009B2947 /* MSFramelessDWARF_arm32.S */; };
+		DFD9F57B249A5B7E009B2947 /* MSCrashCorruptObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F558249A5B7E009B2947 /* MSCrashCorruptObjC.m */; };
+		DFD9F57C249A5B7E009B2947 /* MSCrashGarbage.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F559249A5B7E009B2947 /* MSCrashGarbage.m */; };
+		DFD9F57D249A5B7E009B2947 /* MSCrashFramelessDWARF.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F55A249A5B7E009B2947 /* MSCrashFramelessDWARF.m */; };
+		DFD9F57E249A5B7E009B2947 /* MSCrashReleasedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F55C249A5B7E009B2947 /* MSCrashReleasedObject.m */; };
+		DFD9F57F249A5B7E009B2947 /* MSCrashNSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F55E249A5B7E009B2947 /* MSCrashNSLog.m */; };
+		DFD9F580249A5B7E009B2947 /* MSFramelessDWARF_i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F55F249A5B7E009B2947 /* MSFramelessDWARF_i386.s */; };
+		DFD9F581249A5B7E009B2947 /* MSFramelessDWARF_x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F561249A5B7E009B2947 /* MSFramelessDWARF_x86_64.s */; };
+		DFD9F582249A5B7E009B2947 /* MSCrashCXXCustomException.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F562249A5B7E009B2947 /* MSCrashCXXCustomException.mm */; };
+		DFD9F583249A5B7E009B2947 /* MSCrashOutOfMemory.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFD9F563249A5B7E009B2947 /* MSCrashOutOfMemory.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +56,64 @@
 		DFD9F51F249A5B4E009B2947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFD9F521249A5B4E009B2947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFD9F522249A5B4E009B2947 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFD9F52A249A5B7E009B2947 /* MSCrashCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashCustomView.m; sourceTree = "<group>"; };
+		DFD9F52B249A5B7E009B2947 /* MSCrashUndefInst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashUndefInst.m; sourceTree = "<group>"; };
+		DFD9F52C249A5B7E009B2947 /* MSCrashPrivInst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashPrivInst.h; sourceTree = "<group>"; };
+		DFD9F52D249A5B7E009B2947 /* MSCrashStackGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashStackGuard.h; sourceTree = "<group>"; };
+		DFD9F52E249A5B7E009B2947 /* MSCrashCXXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashCXXException.h; sourceTree = "<group>"; };
+		DFD9F52F249A5B7E009B2947 /* MSCrashNULL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashNULL.h; sourceTree = "<group>"; };
+		DFD9F530249A5B7E009B2947 /* MSCrashCorruptMalloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashCorruptMalloc.m; sourceTree = "<group>"; };
+		DFD9F531249A5B7E009B2947 /* MSCrashSmashStackTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashSmashStackTop.h; sourceTree = "<group>"; };
+		DFD9F532249A5B7E009B2947 /* MSCrashObjCException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashObjCException.h; sourceTree = "<group>"; };
+		DFD9F533249A5B7E009B2947 /* MSCrashROPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashROPage.h; sourceTree = "<group>"; };
+		DFD9F534249A5B7E009B2947 /* MSCrashNXPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashNXPage.m; sourceTree = "<group>"; };
+		DFD9F535249A5B7E009B2947 /* MSCrashAbort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashAbort.m; sourceTree = "<group>"; };
+		DFD9F536249A5B7E009B2947 /* MSCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrash.h; sourceTree = "<group>"; };
+		DFD9F537249A5B7E009B2947 /* MSCrashAsyncSafeThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashAsyncSafeThread.m; sourceTree = "<group>"; };
+		DFD9F538249A5B7E009B2947 /* MSCrashNSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashNSLog.h; sourceTree = "<group>"; };
+		DFD9F539249A5B7E009B2947 /* MSCrashReleasedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashReleasedObject.h; sourceTree = "<group>"; };
+		DFD9F53A249A5B7E009B2947 /* MSCrashDelayedObjCException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashDelayedObjCException.m; sourceTree = "<group>"; };
+		DFD9F53B249A5B7E009B2947 /* MSCrashFramelessDWARF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashFramelessDWARF.h; sourceTree = "<group>"; };
+		DFD9F53C249A5B7E009B2947 /* MSCrashOutOfMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashOutOfMemory.h; sourceTree = "<group>"; };
+		DFD9F53D249A5B7E009B2947 /* MSCrashGarbage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashGarbage.h; sourceTree = "<group>"; };
+		DFD9F53E249A5B7E009B2947 /* MSCrashCorruptObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashCorruptObjC.h; sourceTree = "<group>"; };
+		DFD9F53F249A5B7E009B2947 /* MSCrashSmashStackBottom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashSmashStackBottom.m; sourceTree = "<group>"; };
+		DFD9F540249A5B7E009B2947 /* MSCrashTrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashTrap.h; sourceTree = "<group>"; };
+		DFD9F541249A5B7E009B2947 /* CrashLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashLib.h; sourceTree = "<group>"; };
+		DFD9F542249A5B7E009B2947 /* MSCrashOverwriteLinkRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashOverwriteLinkRegister.m; sourceTree = "<group>"; };
+		DFD9F544249A5B7E009B2947 /* MSCrashObjCMsgSend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashObjCMsgSend.m; sourceTree = "<group>"; };
+		DFD9F545249A5B7E009B2947 /* MSFramelessDWARF_arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = MSFramelessDWARF_arm64.s; sourceTree = "<group>"; };
+		DFD9F546249A5B7E009B2947 /* MSCrashCorruptMalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashCorruptMalloc.h; sourceTree = "<group>"; };
+		DFD9F547249A5B7E009B2947 /* MSCrashNULL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashNULL.m; sourceTree = "<group>"; };
+		DFD9F548249A5B7E009B2947 /* MSCrashCXXCustomException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashCXXCustomException.h; sourceTree = "<group>"; };
+		DFD9F549249A5B7E009B2947 /* MSCrashStackGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashStackGuard.m; sourceTree = "<group>"; };
+		DFD9F54A249A5B7E009B2947 /* MSCrashPrivInst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashPrivInst.m; sourceTree = "<group>"; };
+		DFD9F54B249A5B7E009B2947 /* MSCrashCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashCustomView.h; sourceTree = "<group>"; };
+		DFD9F54C249A5B7E009B2947 /* MSCrashUndefInst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashUndefInst.h; sourceTree = "<group>"; };
+		DFD9F54D249A5B7E009B2947 /* MSCrashCXXException.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MSCrashCXXException.mm; sourceTree = "<group>"; };
+		DFD9F54E249A5B7E009B2947 /* MSCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrash.m; sourceTree = "<group>"; };
+		DFD9F54F249A5B7E009B2947 /* MSCrashAbort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashAbort.h; sourceTree = "<group>"; };
+		DFD9F550249A5B7E009B2947 /* MSCrashROPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashROPage.m; sourceTree = "<group>"; };
+		DFD9F551249A5B7E009B2947 /* CrashLib-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CrashLib-Bridging-Header.h"; sourceTree = "<group>"; };
+		DFD9F552249A5B7E009B2947 /* MSCrashNXPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashNXPage.h; sourceTree = "<group>"; };
+		DFD9F553249A5B7E009B2947 /* MSCrashSmashStackTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashSmashStackTop.m; sourceTree = "<group>"; };
+		DFD9F554249A5B7E009B2947 /* MSCrashObjCException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashObjCException.m; sourceTree = "<group>"; };
+		DFD9F555249A5B7E009B2947 /* MSCrashTrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashTrap.m; sourceTree = "<group>"; };
+		DFD9F556249A5B7E009B2947 /* MSCrashSmashStackBottom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashSmashStackBottom.h; sourceTree = "<group>"; };
+		DFD9F557249A5B7E009B2947 /* MSFramelessDWARF_arm32.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = MSFramelessDWARF_arm32.S; sourceTree = "<group>"; };
+		DFD9F558249A5B7E009B2947 /* MSCrashCorruptObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashCorruptObjC.m; sourceTree = "<group>"; };
+		DFD9F559249A5B7E009B2947 /* MSCrashGarbage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashGarbage.m; sourceTree = "<group>"; };
+		DFD9F55A249A5B7E009B2947 /* MSCrashFramelessDWARF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashFramelessDWARF.m; sourceTree = "<group>"; };
+		DFD9F55B249A5B7E009B2947 /* MSCrashDelayedObjCException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashDelayedObjCException.h; sourceTree = "<group>"; };
+		DFD9F55C249A5B7E009B2947 /* MSCrashReleasedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashReleasedObject.m; sourceTree = "<group>"; };
+		DFD9F55D249A5B7E009B2947 /* MSCrashAsyncSafeThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashAsyncSafeThread.h; sourceTree = "<group>"; };
+		DFD9F55E249A5B7E009B2947 /* MSCrashNSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCrashNSLog.m; sourceTree = "<group>"; };
+		DFD9F55F249A5B7E009B2947 /* MSFramelessDWARF_i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = MSFramelessDWARF_i386.s; sourceTree = "<group>"; };
+		DFD9F560249A5B7E009B2947 /* MSCrashObjCMsgSend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashObjCMsgSend.h; sourceTree = "<group>"; };
+		DFD9F561249A5B7E009B2947 /* MSFramelessDWARF_x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = MSFramelessDWARF_x86_64.s; sourceTree = "<group>"; };
+		DFD9F562249A5B7E009B2947 /* MSCrashCXXCustomException.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MSCrashCXXCustomException.mm; sourceTree = "<group>"; };
+		DFD9F563249A5B7E009B2947 /* MSCrashOutOfMemory.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MSCrashOutOfMemory.mm; sourceTree = "<group>"; };
+		DFD9F564249A5B7E009B2947 /* MSCrashOverwriteLinkRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashOverwriteLinkRegister.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +146,7 @@
 		DFD9F512249A5B4C009B2947 /* PLCR-tvos */ = {
 			isa = PBXGroup;
 			children = (
+				DFD9F529249A5B7E009B2947 /* CrashLib */,
 				DFD9F513249A5B4C009B2947 /* AppDelegate.h */,
 				DFD9F514249A5B4C009B2947 /* AppDelegate.m */,
 				DFD9F516249A5B4C009B2947 /* ViewController.h */,
@@ -69,6 +158,71 @@
 				DFD9F522249A5B4E009B2947 /* main.m */,
 			);
 			path = "PLCR-tvos";
+			sourceTree = "<group>";
+		};
+		DFD9F529249A5B7E009B2947 /* CrashLib */ = {
+			isa = PBXGroup;
+			children = (
+				DFD9F52A249A5B7E009B2947 /* MSCrashCustomView.m */,
+				DFD9F52B249A5B7E009B2947 /* MSCrashUndefInst.m */,
+				DFD9F52C249A5B7E009B2947 /* MSCrashPrivInst.h */,
+				DFD9F52D249A5B7E009B2947 /* MSCrashStackGuard.h */,
+				DFD9F52E249A5B7E009B2947 /* MSCrashCXXException.h */,
+				DFD9F52F249A5B7E009B2947 /* MSCrashNULL.h */,
+				DFD9F530249A5B7E009B2947 /* MSCrashCorruptMalloc.m */,
+				DFD9F531249A5B7E009B2947 /* MSCrashSmashStackTop.h */,
+				DFD9F532249A5B7E009B2947 /* MSCrashObjCException.h */,
+				DFD9F533249A5B7E009B2947 /* MSCrashROPage.h */,
+				DFD9F534249A5B7E009B2947 /* MSCrashNXPage.m */,
+				DFD9F535249A5B7E009B2947 /* MSCrashAbort.m */,
+				DFD9F536249A5B7E009B2947 /* MSCrash.h */,
+				DFD9F537249A5B7E009B2947 /* MSCrashAsyncSafeThread.m */,
+				DFD9F538249A5B7E009B2947 /* MSCrashNSLog.h */,
+				DFD9F539249A5B7E009B2947 /* MSCrashReleasedObject.h */,
+				DFD9F53A249A5B7E009B2947 /* MSCrashDelayedObjCException.m */,
+				DFD9F53B249A5B7E009B2947 /* MSCrashFramelessDWARF.h */,
+				DFD9F53C249A5B7E009B2947 /* MSCrashOutOfMemory.h */,
+				DFD9F53D249A5B7E009B2947 /* MSCrashGarbage.h */,
+				DFD9F53E249A5B7E009B2947 /* MSCrashCorruptObjC.h */,
+				DFD9F53F249A5B7E009B2947 /* MSCrashSmashStackBottom.m */,
+				DFD9F540249A5B7E009B2947 /* MSCrashTrap.h */,
+				DFD9F541249A5B7E009B2947 /* CrashLib.h */,
+				DFD9F542249A5B7E009B2947 /* MSCrashOverwriteLinkRegister.m */,
+				DFD9F544249A5B7E009B2947 /* MSCrashObjCMsgSend.m */,
+				DFD9F545249A5B7E009B2947 /* MSFramelessDWARF_arm64.s */,
+				DFD9F546249A5B7E009B2947 /* MSCrashCorruptMalloc.h */,
+				DFD9F547249A5B7E009B2947 /* MSCrashNULL.m */,
+				DFD9F548249A5B7E009B2947 /* MSCrashCXXCustomException.h */,
+				DFD9F549249A5B7E009B2947 /* MSCrashStackGuard.m */,
+				DFD9F54A249A5B7E009B2947 /* MSCrashPrivInst.m */,
+				DFD9F54B249A5B7E009B2947 /* MSCrashCustomView.h */,
+				DFD9F54C249A5B7E009B2947 /* MSCrashUndefInst.h */,
+				DFD9F54D249A5B7E009B2947 /* MSCrashCXXException.mm */,
+				DFD9F54E249A5B7E009B2947 /* MSCrash.m */,
+				DFD9F54F249A5B7E009B2947 /* MSCrashAbort.h */,
+				DFD9F550249A5B7E009B2947 /* MSCrashROPage.m */,
+				DFD9F551249A5B7E009B2947 /* CrashLib-Bridging-Header.h */,
+				DFD9F552249A5B7E009B2947 /* MSCrashNXPage.h */,
+				DFD9F553249A5B7E009B2947 /* MSCrashSmashStackTop.m */,
+				DFD9F554249A5B7E009B2947 /* MSCrashObjCException.m */,
+				DFD9F555249A5B7E009B2947 /* MSCrashTrap.m */,
+				DFD9F556249A5B7E009B2947 /* MSCrashSmashStackBottom.h */,
+				DFD9F557249A5B7E009B2947 /* MSFramelessDWARF_arm32.S */,
+				DFD9F558249A5B7E009B2947 /* MSCrashCorruptObjC.m */,
+				DFD9F559249A5B7E009B2947 /* MSCrashGarbage.m */,
+				DFD9F55A249A5B7E009B2947 /* MSCrashFramelessDWARF.m */,
+				DFD9F55B249A5B7E009B2947 /* MSCrashDelayedObjCException.h */,
+				DFD9F55C249A5B7E009B2947 /* MSCrashReleasedObject.m */,
+				DFD9F55D249A5B7E009B2947 /* MSCrashAsyncSafeThread.h */,
+				DFD9F55E249A5B7E009B2947 /* MSCrashNSLog.m */,
+				DFD9F55F249A5B7E009B2947 /* MSFramelessDWARF_i386.s */,
+				DFD9F560249A5B7E009B2947 /* MSCrashObjCMsgSend.h */,
+				DFD9F561249A5B7E009B2947 /* MSFramelessDWARF_x86_64.s */,
+				DFD9F562249A5B7E009B2947 /* MSCrashCXXCustomException.mm */,
+				DFD9F563249A5B7E009B2947 /* MSCrashOutOfMemory.mm */,
+				DFD9F564249A5B7E009B2947 /* MSCrashOverwriteLinkRegister.h */,
+			);
+			path = CrashLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +241,8 @@
 			dependencies = (
 			);
 			name = "PLCR-tvos";
+			packageProductDependencies = (
+			);
 			productName = "PLCR-tvos";
 			productReference = DFD9F510249A5B4C009B2947 /* PLCR-tvos.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +270,8 @@
 				Base,
 			);
 			mainGroup = DFD9F507249A5B4C009B2947;
+			packageReferences = (
+			);
 			productRefGroup = DFD9F511249A5B4C009B2947 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,9 +299,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFD9F568249A5B7E009B2947 /* MSCrashNXPage.m in Sources */,
+				DFD9F57A249A5B7E009B2947 /* MSFramelessDWARF_arm32.S in Sources */,
+				DFD9F575249A5B7E009B2947 /* MSCrash.m in Sources */,
 				DFD9F518249A5B4C009B2947 /* ViewController.m in Sources */,
+				DFD9F573249A5B7E009B2947 /* MSCrashPrivInst.m in Sources */,
+				DFD9F569249A5B7E009B2947 /* MSCrashAbort.m in Sources */,
+				DFD9F580249A5B7E009B2947 /* MSFramelessDWARF_i386.s in Sources */,
+				DFD9F56F249A5B7E009B2947 /* MSCrashObjCMsgSend.m in Sources */,
+				DFD9F576249A5B7E009B2947 /* MSCrashROPage.m in Sources */,
+				DFD9F571249A5B7E009B2947 /* MSCrashNULL.m in Sources */,
+				DFD9F579249A5B7E009B2947 /* MSCrashTrap.m in Sources */,
+				DFD9F566249A5B7E009B2947 /* MSCrashUndefInst.m in Sources */,
+				DFD9F56D249A5B7E009B2947 /* MSCrashOverwriteLinkRegister.m in Sources */,
+				DFD9F56B249A5B7E009B2947 /* MSCrashDelayedObjCException.m in Sources */,
+				DFD9F574249A5B7E009B2947 /* MSCrashCXXException.mm in Sources */,
+				DFD9F582249A5B7E009B2947 /* MSCrashCXXCustomException.mm in Sources */,
+				DFD9F565249A5B7E009B2947 /* MSCrashCustomView.m in Sources */,
+				DFD9F567249A5B7E009B2947 /* MSCrashCorruptMalloc.m in Sources */,
+				DFD9F570249A5B7E009B2947 /* MSFramelessDWARF_arm64.s in Sources */,
+				DFD9F57D249A5B7E009B2947 /* MSCrashFramelessDWARF.m in Sources */,
 				DFD9F523249A5B4E009B2947 /* main.m in Sources */,
+				DFD9F578249A5B7E009B2947 /* MSCrashObjCException.m in Sources */,
+				DFD9F57E249A5B7E009B2947 /* MSCrashReleasedObject.m in Sources */,
+				DFD9F57B249A5B7E009B2947 /* MSCrashCorruptObjC.m in Sources */,
+				DFD9F56C249A5B7E009B2947 /* MSCrashSmashStackBottom.m in Sources */,
 				DFD9F515249A5B4C009B2947 /* AppDelegate.m in Sources */,
+				DFD9F56A249A5B7E009B2947 /* MSCrashAsyncSafeThread.m in Sources */,
+				DFD9F577249A5B7E009B2947 /* MSCrashSmashStackTop.m in Sources */,
+				DFD9F57C249A5B7E009B2947 /* MSCrashGarbage.m in Sources */,
+				DFD9F572249A5B7E009B2947 /* MSCrashStackGuard.m in Sources */,
+				DFD9F581249A5B7E009B2947 /* MSFramelessDWARF_x86_64.s in Sources */,
+				DFD9F583249A5B7E009B2947 /* MSCrashOutOfMemory.mm in Sources */,
+				DFD9F57F249A5B7E009B2947 /* MSCrashNSLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +472,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H4W33TQ9LP;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "PLCR-tvos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -292,6 +480,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.plcr.PLCR-tvos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 			};
 			name = Debug;
@@ -301,7 +490,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H4W33TQ9LP;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "PLCR-tvos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +498,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.plcr.PLCR-tvos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 			};
 			name = Release;

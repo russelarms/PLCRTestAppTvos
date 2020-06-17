@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+@import CrashReporter;
 
 @interface AppDelegate ()
 
@@ -16,9 +17,58 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  // Override point for customization after application launch.
-  return YES;
+  //  PLCrashReporter *crashReporter = [PLCrashReporter sharedReporter];
+
+    PLCrashReporter *crashReporter = [[PLCrashReporter alloc] initWithConfiguration:[[PLCrashReporterConfig alloc] initWithSignalHandlerType:PLCrashReporterSignalHandlerTypeBSD symbolicationStrategy:PLCrashReporterSymbolicationStrategyAll]];
+  //
+    NSError *error;
+
+    // Check if we previously crashed
+    if ([crashReporter hasPendingCrashReport])
+      [self handleCrashReport:crashReporter];
+
+    // Enable the Crash Reporter
+    if (![crashReporter enableCrashReporterAndReturnError: &error])
+        NSLog(@"Warning: Could not enable crash reporter: %@", error);
+
+    return YES;
 }
+
+//
+// Called to handle a pending crash report.
+//
+- (void) handleCrashReport:(PLCrashReporter*)crashReporter {
+    NSData *crashData;
+    NSError *error;
+
+    // Try loading the crash report
+    crashData = [crashReporter loadPendingCrashReportDataAndReturnError: &error];
+    if (crashData == nil) {
+        NSLog(@"Could not load crash report: %@", error);
+        return;
+    }
+
+    // We could send the report from here, but we'll just print out
+    // some debugging info instead
+    PLCrashReport *report = [[PLCrashReport alloc] initWithData: crashData error: &error];
+    if (report == nil) {
+        NSLog(@"Could not parse crash report");
+        return;
+    }
+
+
+    NSLog(@"Crashed on %@", report.systemInfo.timestamp);
+    NSLog(@"Crashed with signal %@ (code %@, address=0x%" PRIx64 ")", report.signalInfo.name,
+          report.signalInfo.code, report.signalInfo.address);
+
+  NSString *text = [PLCrashReportTextFormatter stringValueForCrashReport: report withTextFormat: PLCrashReportTextFormatiOS];
+  NSLog(text);
+
+    // Purge the report
+    [crashReporter purgePendingCrashReport];
+    return;
+}
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
